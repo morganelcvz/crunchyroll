@@ -19,7 +19,9 @@ header {
         align-items: stretch;
 
         @media (max-width: 915px) {
-            background:red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         @media (max-width: 500px) {
@@ -37,7 +39,10 @@ header {
             width: 50%;
 
             @media (max-width: 915px) {
-                
+                width:70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             @media (max-width: 500px) {
@@ -50,6 +55,11 @@ header {
             img {
                 width: 20%;
                 padding: 10px 10px 10px 50px;
+
+                @media (max-width: 915px) {
+                    width:35%;
+                    padding:0px;
+                }
 
                 @media (max-width: 500px) {
                     width:100%;
@@ -199,7 +209,10 @@ header {
         align-items: flex-start;
         flex-wrap: wrap;
         padding: 50px 0px;
-        
+
+        @media (max-width: 915px) {
+            width:80%;
+        }
 
         @media (max-width: 500px) {
             display:flex;
@@ -254,6 +267,11 @@ header {
                 width: 52%;
                 display: flex;
                 align-items: center;
+
+                @media (max-width: 915px) {
+                    width:55%;
+                    font-size:1rem;
+                }
 
                 @media (max-width: 500px) {
                     width:100%;

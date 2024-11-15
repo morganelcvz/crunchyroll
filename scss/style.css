@@ -20,7 +20,9 @@ header nav {
 }
 @media (max-width: 915px) {
   header nav {
-    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 500px) {
@@ -38,6 +40,14 @@ header nav .left_bar {
   flex-wrap: wrap;
   width: 50%;
 }
+@media (max-width: 915px) {
+  header nav .left_bar {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media (max-width: 500px) {
   header nav .left_bar {
     width: 40%;
@@ -49,6 +59,12 @@ header nav .left_bar {
 header nav .left_bar img {
   width: 20%;
   padding: 10px 10px 10px 50px;
+}
+@media (max-width: 915px) {
+  header nav .left_bar img {
+    width: 35%;
+    padding: 0px;
+  }
 }
 @media (max-width: 500px) {
   header nav .left_bar img {
@@ -184,6 +200,11 @@ header .op_header .op_blur img {
   padding: 50px 0px;
   /******INFO GAUCHE******/
 }
+@media (max-width: 915px) {
+  .op_box .op_info {
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   .op_box .op_info {
     display: flex;
@@ -234,6 +255,12 @@ header .op_header .op_blur img {
   width: 52%;
   display: flex;
   align-items: center;
+}
+@media (max-width: 915px) {
+  .op_box .op_info .serie .award {
+    width: 55%;
+    font-size: 1rem;
+  }
 }
 @media (max-width: 500px) {
   .op_box .op_info .serie .award {
